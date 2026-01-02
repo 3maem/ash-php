@@ -1,0 +1,9 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    excludePaths:
+        - src/Middleware/*
+        - src/Store/*
+    treatPhpDocTypesAsCertain: false
